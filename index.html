@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fortune Teller API</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: silver;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 50px;
+      width: 100%;
+      background-color: gray;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="fortunetellerapi">Fortune Teller API</h1>
+  <p>This is a straightforward API built using Node.js, Express.js and MongoDB.
+    Retrieves a random item from the NoSQL database and returns it to the frontend.</p>
+  <h3 id="examplerequest">Example request</h3>
+  <pre><code>http://fortune-teller.heroku.com/getfortunes</code></pre>
+  <h3 id="exampleresponse">Example response</h3>
+  <pre><code>{ id: 0, message: "Something nice will happen today!}</code></pre>
+  <footer>
+    <p>Developed by Alex Jacobs (Contact me <a href="https://maximumfluff.github.io/">here</a>)</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "fortune_teller",
+  "version": "1.0.0",
+  "description": "Fortune Teller API, retrieve random fortunes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Alex Jacobs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6"
+  }
+}
