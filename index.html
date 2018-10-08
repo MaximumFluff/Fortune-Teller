@@ -31,6 +31,9 @@
   <pre><code>http://fortune-teller.heroku.com/getfortunes</code></pre>
   <h3 id="exampleresponse">Example response</h3>
   <pre><code>{ id: 0, message: "Something nice will happen today!}</code></pre>
+  <h3>Available options</h3>
+  <p>You can pass the "amount" option to the request URL to get a certain amount of items (number passed will return error if number exceeds amount of items in database)</p>
+  <pre><code>http://fortune-teller.heroku.com/getfortunes?amount=3</code></pre>
   <footer>
     <p>Developed by Alex Jacobs (Contact me <a href="https://maximumfluff.github.io/">here</a>)</p>
   </footer>
